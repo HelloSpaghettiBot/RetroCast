@@ -7,21 +7,9 @@
   "hero": {
     "title": "Deep dives into <span class=\"accent\">retro classics</span> & legendary <span class=\"accent\">MMORPGs</span>",
     "subtitle": "Weekly discussions, dev interviews, and nostalgia-fueled debates",
-    "ctaPrimary": {
-      "label": "Listen now",
-      "href": "#podcast"
-    },
-    "ctaSecondary": {
-      "label": "Browse episodes",
-      "href": "#episodes"
-    }
+    "ctaPrimary": { "label": "Listen now", "href": "#podcast" },
+    "ctaSecondary": { "label": "Browse episodes", "href": "#episodes" }
   },
-  "listen": {
-    "heading": "Listen"
-  },
-  "episodesHeading": "Latest episodes",
-  "retroHeading": "Retro spotlights",
-  "featuredHeading": "Featured",
   "about": {
     "heading": "About",
     "copy": "RetroCaster is a passion project by longtime fans of MMORPGs. We bring you deep-dive analysis, behind-the-scenes developer stories, and heartfelt nostalgia.",
@@ -31,6 +19,12 @@
       "Community spotlights"
     ]
   },
+  "listen": {
+    "heading": "Listen"
+  },
+  "episodesHeading": "Latest episodes",
+  "retroHeading": "Retro spotlights",
+  "featuredHeading": "Featured",
   "contact": {
     "heading": "Contact",
     "html": "<p class='maxw'>Want to suggest a topic or join the conversation? Email <a href='mailto:contact@retrocaster.com'>contact@retrocaster.com</a>.</p>"
