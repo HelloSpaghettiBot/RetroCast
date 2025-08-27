@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "Retro & MMORPG Podcast",
+    "brand": "RetroCaster",
+    "subscribeUrl": "https://open.spotify.com/show/5tFabzKjFj7usbKFjVXMfp"
+  },
+  "hero": {
+    "title": "Deep dives into <span class=\"accent\">retro classics</span> & legendary <span class=\"accent\">MMORPGs</span>",
+    "subtitle": "Weekly discussions, dev interviews, and nostalgia-fueled debates",
+    "ctaPrimary": {
+      "label": "Listen now",
+      "href": "#podcast"
+    },
+    "ctaSecondary": {
+      "label": "Browse episodes",
+      "href": "#episodes"
+    }
+  },
+  "listen": {
+    "heading": "Listen"
+  },
+  "episodesHeading": "Latest episodes",
+  "retroHeading": "Retro spotlights",
+  "featuredHeading": "Featured",
+  "about": {
+    "heading": "About",
+    "copy": "RetroCaster is a passion project by longtime fans of MMORPGs. We bring you deep-dive analysis, behind-the-scenes developer stories, and heartfelt nostalgia.",
+    "bullets": [
+      "Long-form interviews",
+      "Nostalgia & history",
+      "Community spotlights"
+    ]
+  },
+  "contact": {
+    "heading": "Contact",
+    "html": "<p class='maxw'>Want to suggest a topic or join the conversation? Email <a href='mailto:contact@retrocaster.com'>contact@retrocaster.com</a>.</p>"
+  },
+  "episodes": [
+    {
+      "id": 1,
+      "title": "Origins of the Grind",
+      "description": "Early MMO mechanics that shaped the genre",
+      "duration": "52:40",
+      "link": "https://open.spotify.com"
+    },
+    {
+      "id": 2,
+      "title": "Voices from the Golden Era",
+      "description": "A veteran dev on design constraints",
+      "duration": "48:13",
+      "link": "https://open.spotify.com"
+    },
+    {
+      "id": 3,
+      "title": "Mods That Shaped Worlds",
+      "description": "Community-driven content that changed play",
+      "duration": "58:02",
+      "link": "https://open.spotify.com"
+    }
+  ],
+  "retro": [
+    {
+      "title": "EverQuest (1999)",
+      "blurb": "The raids that defined a decade",
+      "url": "#"
+    },
+    {
+      "title": "Ultima Online (1997)",
+      "blurb": "Sandbox chaos and emergent play",
+      "url": "#"
+    },
+    {
+      "title": "MapleStory (2003)",
+      "blurb": "Grind culture & cozy towns",
+      "url": "#"
+    }
+  ],
+  "featured": [
+    {
+      "type": "link",
+      "title": "Developer AMA",
+      "subtitle": "Designing boss mechanics",
+      "description": "Live Q&A recap",
+      "url": "#"
+    },
+    {
+      "type": "episode",
+      "episodeId": 2,
+      "title": "Voices from the Golden Era",
+      "subtitle": "Highlights & takeaways",
+      "description": "Listen and learn"
+    }
+  ]
+}
