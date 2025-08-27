@@ -1,1 +1,117 @@
-<!doctype html><title>RetroCaster</title><p>Missing index; rerun previous cell.</p>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title id="siteTitle">Retro & MMORPG Podcast</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body id="top">
+  <!-- Fixed header -->
+  <header class="header" role="banner">
+    <div class="wrap nav">
+      <a href="#top" class="brand" aria-label="Home">
+        <span class="brand-badge">▶</span>
+        <span class="brand-title" id="brandTitle">Retro & MMORPG Podcast</span>
+      </a>
+
+      <!-- Desktop nav -->
+      <nav class="desk-nav" aria-label="Primary">
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#podcast">Listen</a>
+        <a class="nav-link" href="#episodes">Episodes</a>
+        <a class="nav-link" href="#retro">Retro</a>
+        <a class="nav-link" href="#featured">Featured</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile bottom button nav (CSS-only) -->
+  <nav class="nav-mobile" aria-label="Primary mobile">
+    <a href="#about">About</a>
+    <a href="#podcast">Listen</a>
+    <a href="#episodes">Episodes</a>
+    <a href="#retro">Retro</a>
+    <a href="#featured">Featured</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <!-- Hero -->
+    <section id="top" class="section hero">
+      <div class="wrap section-inner">
+        <h1 id="heroTitle">Loading…</h1>
+        <p class="mut" id="heroSubtitle"></p>
+        <div class="row gap">
+          <a href="#podcast" class="btn btn-primary" id="ctaPrimary">Listen now</a>
+          <a href="#episodes" class="btn btn-ghost" id="ctaSecondary">Browse episodes</a>
+        </div>
+      </div>
+      <div class="hero-bg" aria-hidden="true"></div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="wrap section-inner">
+        <h2 id="aboutHeading">About</h2>
+        <p class="mut maxw" id="aboutCopy"></p>
+        <ul class="bullets" id="aboutBullets"></ul>
+      </div>
+    </section>
+
+    <!-- Listen (Spotify embed) -->
+    <section id="podcast" class="section alt">
+      <div class="wrap section-inner">
+        <h2 id="listenHeading">Listen</h2>
+        <div class="spotify-frame">
+          <iframe
+            src="https://open.spotify.com/embed/show/5tFabzKjFj7usbKFjVXMfp"
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <section id="episodes" class="section">
+      <div class="wrap section-inner">
+        <div class="split-head">
+          <h2 id="episodesHeading">Latest episodes</h2>
+          <a id="subscribeLink" class="link hide" href="#" rel="noopener">Subscribe →</a>
+        </div>
+        <div id="episodesGrid" class="cards"></div>
+      </div>
+    </section>
+
+    <section id="retro" class="section alt">
+      <div class="wrap section-inner">
+        <h2 id="retroHeading">Retro spotlights</h2>
+        <div id="retroGrid" class="cards"></div>
+      </div>
+    </section>
+
+    <section id="featured" class="section">
+      <div class="wrap section-inner">
+        <h2 id="featuredHeading">Featured</h2>
+        <div id="featuredGrid" class="cards"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="wrap section-inner">
+        <h2 id="contactHeading">Contact</h2>
+        <div id="contactBody"></div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="wrap foot">
+        <div>© <span id="year"></span> <span id="footerBrand">Podcast</span></div>
+        <div class="foot-links"><a href="#top">Back to top</a></div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
